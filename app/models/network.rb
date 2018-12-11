@@ -1,4 +1,4 @@
-class Network < ActiveRecord::Base
+class Network < ActiveRecord::Base[5.1]
   has_many :shows
 
   def sorry
